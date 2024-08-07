@@ -1,1 +1,23 @@
-ccddd
+https://github.com/HyunSun-Song/edu
+
+https://github.com/HyunSun-Song/edu/blob/main/README.md
+
+보상트랜잭션
+https://blog.naver.com/PostView.nhn?blogId=kyy627&logNo=222306108349
+
+사가의 구조
+
+보상 가능 트랜잭션(compensatable transaction): 보상 트랜잭션으로 롤백 가능한 트랜잭션
+피벗 트랜잭션(pivot transaction): 사가의 진행/중단 지점. 피봇 트랜잭션이 커밋되면 사가는 완료될 때까지 실행. 피봇 트랜잭션은 보상 가능 트랜잭션, 재시도 가능한 트랜잭션 그 어느 쪽도 아니지만, 최종 보상 가능 트랜잭션 또는 최초 재시도 가능 트랜잭션이 될 수 있음
+재시도 가능 트랜잭션(retriable transaction): 피봇 트랜잭션 직후의 트랜잭션. 반드시 성공
+
+[마이크로서비스 패턴] 4. 트랜잭션 관리: 사가
+https://velog.io/@daehoon12/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4-%ED%8C%A8%ED%84%B4-4.-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EA%B4%80%EB%A6%AC-%EC%82%AC%EA%B0%80
+
+마이크로서비스 패턴: 핵심패턴만 빠르게 이해하기
+https://happycloud-lee.tistory.com/154
+
+[E-commerce] 주문 결제 트랜잭션 단위를 어떻게 가져가야 할까
+https://seungjjun.tistory.com/322
+
+)
